@@ -33,10 +33,6 @@ clicar em submit
 fechar navegador
     Close Browser
 
-
-
-
-
 *** Test Cases ***
 Cenário 1: Preencher formulário 
     abrir navegador e acessar o site
