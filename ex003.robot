@@ -3,12 +3,12 @@ Library    SeleniumLibrary
 
 
 *** Variables ***
-${input_name}          id:name
-${input_phone}         id:phone
-${input_email}         id:email
-${input_password}      id:password
-${textarea_address}    id:address
-${button_submit}       name:submit
+${input_name}             //input[@id="name"]
+${input_phone}            //input[@id="phone"]
+${input_email}            //input[@id="email"]
+${input_password}         //input[@id="password"]
+${textarea_address}       //textarea[@id="address"]
+${button_submit}          //button[@name="submit"]
 
 
 *** Keywords ***
@@ -18,13 +18,9 @@ maximizar o navegador
     Maximize Browser Window
 preencher campos 
     Input Text    ${input_name}           Mateus
-    Sleep    2
     Input Text    ${input_phone}          123456789
-    Sleep    2
     Input Text    ${input_email}          matteus.300@hotmail.com
-    Sleep    2
     Input Text    ${input_password}       987654321
-    Sleep    2
     Input Text    ${textarea_address}     Necessário acreditar que o sonho é possível      
 
 clicar em submit
