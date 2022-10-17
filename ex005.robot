@@ -21,5 +21,6 @@ Cenário 1: Abrir site do Google
     Fechar Navegador
     
 Cenário 2: Abrir site status invest  
+    [Tags]  regressivo2
     Abrir site do Status Invest
     Fechar Navegador
